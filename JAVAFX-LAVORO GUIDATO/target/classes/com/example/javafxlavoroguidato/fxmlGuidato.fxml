@@ -17,13 +17,13 @@
       <VBox layoutX="20.0" layoutY="14.0" prefHeight="372.0" prefWidth="566.0" spacing="30.0">
          <children>
             <Button fx:id="button" mnemonicParsing="false" onAction="#onButtonClick" text="Button" />
-            <ImageView fx:id="image" fitHeight="55.0" fitWidth="239.0" onDragDetected="#onImageMouseOver" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: 5;" visible="false">
+            <ImageView fx:id="image" fitHeight="55.0" fitWidth="239.0" pickOnBounds="true" preserveRatio="true" style="-fx-opacity: 5;" visible="false">
                <image>
                   <Image url="@BOUTO%20KAWAKI.png" />
                </image>
             </ImageView>
             <CheckBox fx:id="checkBox" mnemonicParsing="false" onAction="#onCheckBoxClick" text="CheckBox" />
-            <Label fx:id="label" onDragDetected="#onLabelMouseOver" prefHeight="17.0" prefWidth="214.0" text="FKLNDSJKFNDSFNDSFNDSJKFNSDK" />
+            <Label fx:id="label" onMouseClicked="#onLabelMouseClick" onMouseMoved="#onLabelMouseOver" prefHeight="17.0" prefWidth="214.0" text="FKLNDSJKFNDSFNDSFNDSJKFNSDK" />
             <ListView fx:id="listView" prefHeight="79.0" prefWidth="195.0" />
             <HBox prefHeight="100.0" prefWidth="200.0">
                <children>
